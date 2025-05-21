@@ -29,4 +29,3 @@ def load_model(token: str=None):
     blip_model = Blip2Model.from_pretrained(ID_BLIP2_27B).to('cuda')
     
     return tokenizer, model, blip_processor, blip_model
-    
